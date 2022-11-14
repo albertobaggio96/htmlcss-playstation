@@ -2,6 +2,10 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 
+section{
+  padding-bottom: 3rem;
+}
+
 .my-box{
   width: 100%;
   min-height: 80px;
