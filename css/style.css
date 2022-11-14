@@ -1,3 +1,10 @@
 body{
   font-family: 'Montserrat', sans-serif;
 }
+
+.my-box{
+  width: 100%;
+  min-height: 80px;
+  background-color: blue;
+  border: 1px solid black;
+}
