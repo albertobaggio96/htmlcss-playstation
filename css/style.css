@@ -6,6 +6,27 @@ section{
   padding-bottom: 3rem;
 }
 
+
+#jumbotron .container-fluid{
+  background-image: url(../img/jumbo-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  height: 380px;
+}
+
+#jumbotron img{
+  width: 60%;
+}
+
+#jumbotron .btn{
+  background-color: #cd3d0f;
+  padding: .25rem .5rem; 
+  font-size: .75rem;
+}
+
+
+
 .my-box{
   width: 100%;
   min-height: 80px;
