@@ -2,11 +2,6 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 
-section{
-  padding-bottom: 3rem;
-}
-
-
 #jumbotron .container-fluid{
   background-image: url(../img/jumbo-bg.png);
   background-size: cover;
@@ -21,11 +16,24 @@ section{
 
 #jumbotron .btn{
   background-color: #cd3d0f;
+}
+
+#ps5 .btn{
+  background-color: #2d64e6;
+}
+
+.my-btn{
   padding: .25rem .5rem; 
   font-size: .75rem;
 }
 
+.my-clr-blue{
+  color: #2d64e6;
+}
 
+.my-clr-gray{
+  color: #7c7c7c;
+}
 
 .my-box{
   width: 100%;
