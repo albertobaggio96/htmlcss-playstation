@@ -21,9 +21,17 @@ body{
   background-color: #1f1f1f;
 }
 
+#psp{
+  background-color: #bebcbb;  
+}
+
 #jumbotron img,
 #it-take-two img{
   width: 60%;
+}
+
+#psp .d-none img{
+  height: 100%;
 }
 
 #jumbotron .btn,
@@ -34,6 +42,10 @@ body{
 #ps5 .btn,
 #ps4 .btn{
   background-color: #2d64e6;
+}
+
+#psp .btn{
+  background-color: #d9dadc;
 }
 
 .my-clr-blue{
