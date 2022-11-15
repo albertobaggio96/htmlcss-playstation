@@ -31,7 +31,8 @@ body{
   background-color: #cd3d0f;
 }
 
-#ps5 .btn{
+#ps5 .btn,
+#ps4 .btn{
   background-color: #2d64e6;
 }
 
