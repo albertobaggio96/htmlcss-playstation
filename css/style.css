@@ -2,9 +2,26 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 
+header{
+  z-index: 1;
+}
+
+main{
+  padding-top: 92px;
+}
+
 footer,
 select{
   background-color: #00439c;
+}
+
+nav .btn{
+  background-color: #363636;
+  transition: .5s;
+}
+
+nav .btn:hover{
+  background-color: #363636b5;
 }
 
 #jumbotron .container-fluid{
@@ -57,6 +74,10 @@ select{
 
 #psp .btn{
   background-color: #d9dadc;
+}
+
+img.sony-logo{
+  height: 20px;
 }
 
 .my-clr-blue{
