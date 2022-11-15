@@ -2,6 +2,11 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 
+footer,
+select{
+  background-color: #00439c;
+}
+
 #jumbotron .container-fluid{
   background-image: url(../img/jumbo-bg.png);
   background-size: cover;
