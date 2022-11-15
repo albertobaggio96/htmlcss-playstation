@@ -51,6 +51,10 @@ nav .btn:hover{
   background-color: #161c3b;
 }
 
+#jumbotron figure.border.border-2{
+  border-color: #00439c;
+}
+
 #jumbotron img,
 #it-take-two img{
   width: 60%;
@@ -78,6 +82,10 @@ nav .btn:hover{
 
 img.sony-logo{
   height: 20px;
+}
+
+.my-find{
+  width: 25px;
 }
 
 .my-clr-blue{
