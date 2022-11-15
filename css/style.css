@@ -25,14 +25,20 @@ body{
   background-color: #bebcbb;  
 }
 
+#psn{
+  background-color: #161c3b;
+}
+
 #jumbotron img,
 #it-take-two img{
   width: 60%;
 }
 
-#psp .d-none img{
+#psp .d-none img,
+#psn .d-none img{
   height: 100%;
 }
+
 
 #jumbotron .btn,
 #it-take-two .btn{
