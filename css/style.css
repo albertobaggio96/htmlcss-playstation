@@ -49,7 +49,7 @@ nav .btn{
 }
 
 #jumbotron figure,
-#ps5 span.border-btn{
+span.border-btn{
   border:2px solid #0d6dfd00;
   transition: .5s;
 }
@@ -60,7 +60,7 @@ nav .btn{
 }
 
 #ps5 a{
-  border-bottom: 3px solid #0d6dfd00;
+  border-bottom: 3px solid #ffffff00;
   transition: .5s;
 } 
 
@@ -69,28 +69,34 @@ nav .btn{
   height: 100%;
 }
 
-
-#jumbotron .btn,
-#it-take-two .btn{
-  background-color: #cd3d0f;
-}
-
-#ps5 .btn,
-#ps4 .btn{
-  background-color: #2d64e6;
-}
-
 #ps5 .my-opacity{
   opacity: .75;
   transition: .5s;
 }
 
-#psp .btn{
+span.border-btn.myorange .btn{
+  background-color: #cd3d0f;
+}
+
+span.border-btn.myblue .btn{
+  background-color: #2d64e6;
+}
+
+span.border-btn.mygray .btn{
   background-color: #d9dadc;
+}
+
+span.border-btn.mywhite .btn{
+  background-color: #Ffffff;
+
 }
 
 img.sony-logo{
   height: 20px;
+}
+
+.btn{
+  border: none;
 }
 
 .my-find{
@@ -112,12 +118,41 @@ nav .btn:hover{
   background-color: #363636b5;
 }
 
-#jumbotron figure:hover,
-#ps5 span.border-btn:hover{
-  border: 2px solid #0d6efd;
-}
-
 #ps5 a:hover{
   border-bottom: 3px solid #0d6efd;
   opacity: 1;
 }
+
+span.border-btn.myblue:hover{
+  border: 2px solid #0d6efd;
+}
+
+span.border-btn.myorange:hover{
+  border: 2px solid #cd3d0f;
+}
+
+span.border-btn.mygray:hover{
+  border: 2px solid #d9dadc;
+}
+
+span.border-btn.mywhite:hover{
+  border: 2px solid #Ffffff;
+}
+
+span.border-btn.myblue:active button.btn{
+  background-color: #0951bd;
+}
+
+span.border-btn.myorange:active button.btn{
+  background-color: #842a0c;
+}
+
+span.border-btn.mygray:active button.btn{
+  background-color:  #cacbcd;
+}
+
+span.border-btn.mywhite:active button.btn{
+  background-color: #c1bcbc;
+
+}
+
