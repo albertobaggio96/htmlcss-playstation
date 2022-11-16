@@ -20,7 +20,6 @@ nav .btn{
   transition: .5s;
 }
 
-
 #jumbotron .container-fluid{
   background: url(../img/jumbo-bg.png);
   background-size: cover;
@@ -119,7 +118,7 @@ img.sony-logo{
   color: #7c7c7c;
 }
 
-/* ! ANIMATION */
+/* * TRANSITION */
 
 nav .btn:hover{
   background-color: #363636b5;
@@ -183,3 +182,33 @@ span.border-btn.mywhite:active button.btn{
   transform: scale(1.01);
 }
 
+
+/* ! ANIMATION */
+
+#jumbotron .container-fluid{
+  animation: opacity 2s linear;
+}
+
+#jumbotron .my-moving-up{
+  animation: my-moving-up 1.2s linear
+}
+
+@keyframes opacity{
+  0%{
+    opacity: .3;
+    
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+@keyframes my-moving-up{
+  0%{
+    transform: translateY(300px);
+  }
+
+  100%{
+    transform: translateY(0px);
+  }
+}
