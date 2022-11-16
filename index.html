@@ -179,7 +179,16 @@
               <button type="submit" class="btn btn-primary">Sign in</button>
             </form>
           </div>
-          <div><a href="#" class="text-end"><img src="img/lens.svg" alt="find" class="my-find ms-3"></a></div>
+          <div class="dropdown position-static"> 
+            <button type="button" class="btn rounded-pill text-whitebg-white ms-3 bg-white" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside"><img src="img/lens.svg" alt="find" class="my-find"></button>
+            <form class="dropdown-menu p-4 end-0 start-50">
+              <div class="mb-3">
+                <input type="text" class="form-control" id="cerca" placeholder="Cerca...">
+              </div>
+              <div class="mb-3">
+              <button type="submit" class="btn btn-primary">Cerca</button>
+            </form>
+          </div>
         </div>
       </div>
     </nav>
