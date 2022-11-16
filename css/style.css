@@ -190,7 +190,7 @@ span.border-btn.mywhite:active button.btn{
 }
 
 #jumbotron .my-moving-up{
-  animation: my-moving-up 1.2s linear
+  animation: my-moving-up 1.2s linear;
 }
 
 @keyframes opacity{
