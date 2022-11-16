@@ -118,6 +118,14 @@ nav .btn:hover{
   background-color: #363636b5;
 }
 
+#jumbotron figure:hover{
+  transform: translateY(-10px);
+}
+
+#jumbotron figure:active{
+  border:2px solid #0d6efd;
+}
+
 #ps5 a:hover{
   border-bottom: 3px solid #0d6efd;
   opacity: 1;
@@ -153,6 +161,5 @@ span.border-btn.mygray:active button.btn{
 
 span.border-btn.mywhite:active button.btn{
   background-color: #c1bcbc;
-
 }
 
